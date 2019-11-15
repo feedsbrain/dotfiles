@@ -64,6 +64,7 @@ colorscheme codedark
 let g:airline_theme = 'codedark'
 
 " Linter
+let g:ale_fixers = {}
 let g:ale_fixers['javascript'] = ['eslint']
 
 " Fix files automatically on save
